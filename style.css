@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background: url("../img/bg.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#currentScore{
+    position: absolute;
+    top: 24px;
+    font-family: sans-serif;
+    right:200px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#highScore{
+     position: absolute;
+    top: 73px;
+    font-family: sans-serif;
+    right: 150px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#board{
+    background: linear-gradient(hsl(120, 68%, 78%), hsl(60, 65%, 73%));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+
+.head{
+    background: linear-gradient(green, lightgreen);
+    border: 2px solid black;
+    border-radius: 5px;
+    transform: scale(1.02);
+}
+
+.snake{
+    background: linear-gradient(green, yellow);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.food{
+    background: linear-gradient(red, purple);
+    border: 2px solid black;
+    border-radius: 5px;
+}
