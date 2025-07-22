@@ -5,6 +5,13 @@ Eat the food, grow the snake, and avoid hitting the walls or yourself!
 
 ![Snake Game Screenshot](./demo.png)
 
+## ▶️ Play Right Now
+
+Try the game instantly in your browser:  
+🔗 [Click Here to Play](https://nikunj-52147.github.io/GAME-Snake-Mania/)
+
+---
+
 ## 🎮 Features
 
 - 🐍 Smooth and responsive snake movement
